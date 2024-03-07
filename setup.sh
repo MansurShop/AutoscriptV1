@@ -190,8 +190,8 @@ exit 1
 fi
 clear
 
-figlet -f small -t "       MANSUR" | lolcat
-echo -e "                 ${green}AUTOSCRIPT INSTALLER v1${NC}  -  ${bold}©2020-2023${NC}"
+figlet -f small -t "       MANSURVPN" | lolcat
+echo -e "                 ${green}AUTOSCRIPT INSTALLER v1${NC}  -  ${bold}©2020-2024${NC}"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "     $red TELEGRAM $NC : t.me/mansurrshop"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
@@ -469,9 +469,9 @@ echo "   - Autobackup Data Via BOT Telegram"  | tee -a log-install.txt
 echo "   - Restore Data"  | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""   | tee -a log-install.txt
-echo "   - Dev/Main                : MANSUR"  | tee -a log-install.txt
+echo "   - Dev/Main                : MansurVPN"  | tee -a log-install.txt
 echo "   - Telegram                : t.me/mansurrshop"  | tee -a log-install.txt
-echo "   - Facebook                : mansurrshop"  | tee -a log-install.txt
+echo "   - Facebook                : Saya Tak Guna Facebook"  | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "=================================================================="  | tee -a log-install.txt
 echo " Reboot 10 Sec"
