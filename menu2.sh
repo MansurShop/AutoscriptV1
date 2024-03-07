@@ -238,9 +238,9 @@ _exists() {
 	xrayversion=$(xray -version | awk '{print $2}' | head -1)
 source /etc/os-release
 clear
-figlet -f small -t "      MANSUR" | lolcat
+figlet -f small -t "      MANSURVPN" | lolcat
 echo -e "              TELEGRAM : t.me/mansurrshop"
-echo -e "              FECABOOK : mansurrshop"
+echo -e "              FECABOOK : Saya Tak Guna Facebook"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "\E[41;1;37m                 ⇱ SYSTEM INFORMATION ⇲                 \E[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
