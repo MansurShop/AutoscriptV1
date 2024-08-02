@@ -242,13 +242,13 @@ Your Domain : $domain
 Your IP VPS  : $ips
 ━━━━━━━━━━━━━━━━━━━
 Cara Restore ?
-1. Forward File Ini Ke Bot Direct Link/Mirror Link @direct_link69_bot
-2. Copy hasil restore ke menu restore di script william
+1. Forward File Ini Ke Bot Direct Link/Mirror Link
+2. Copy link restore ke menu restore di script MansurVPN
 
-Note: Mohon Dibaca
-- Jangan Lupa Mengaktifkan Auto backup Bot Telegram Agar Data Selalu TerUpdate
-- Gunakan Juga Backup Via Gmail Jika VPS Tidak Memblockir Port SMTP
-- Password VPS Akan Mengikuti Dari Data Yang Di Restore
+Nota: Mohon Dibaca
+- Jangan Lupa Mengaktifkan Auto backup Bot Telegram Supaya Data Selalu DiBackup
+- Gunakan Juga Backup Via Gmail Jika VPS Tidak Block Port SMTP
+- Password VPS Akan Ikut Dari Data Yang Di Restore
 ━━━━━━━━━━━━━━━━━━━" https://api.telegram.org/bot$apibot/sendDocument
 rm -rf $ips-backup-data.zip
 clear
