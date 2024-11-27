@@ -180,19 +180,19 @@ zip -r $ips-backup-data.zip backup > /dev/null 2>&1
 curl -F chat_id="$chatid" -F document=@"$ips-backup-data.zip" -F caption="
 Thank You For Using Our Service
 ━━━━━━━━━━━━━━━━━━━
-Tanggal Backup : $date2
+Tarikh Backup : $date2
 ━━━━━━━━━━━━━━━━━━━
 Your Domain : $domain
 Your IP VPS  : $ips
 ━━━━━━━━━━━━━━━━━━━
 Cara Restore ?
-1. Forward File Ini Ke Bot Direct Link/Mirror Link @direct_link69_bot
-2. Copy hasil link ke menu restore di script
+1. Forward File Ini Ke Bot Direct Link/Mirror Link
+2. Copy link ke menu restore di script MansurVPN
 
-Note: Mohon Dibaca
-- Jangan Lupa Mengaktifkan Auto backup Bot Telegram Agar Data Selalu TerUpdate
-- Gunakan Juga Backup Via Gmail Jika VPS Tidak Memblockir Port SMTP
-- Password VPS Akan Mengikuti Dari Data Yang Di Restore
+Note: Wajib Dibaca
+- Jangan Lupa Aktifkan Auto backup Bot Telegram Supaya Data Selalu DiUpdate
+- Gunakan Juga Backup Via Gmail Jika VPS Tidak Block Port SMTP
+- Password VPS Akan Ikut Dari Data Yang Di Restore
 ━━━━━━━━━━━━━━━━━━━" https://api.telegram.org/bot$apibot/sendDocument
 rm -rf $ips-backup-data.zip
 clear
