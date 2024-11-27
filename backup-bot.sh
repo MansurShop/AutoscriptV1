@@ -22,7 +22,7 @@ fi
 # cek wget & curl
 if ! which wget > /dev/null; then
 clear
-echo -e "${red}Wah Mau Belajar Nakal Yah !${NC}"
+echo -e "${red}Wah Nak Jadi Nakal Ya !${NC}"
 sleep 2
 exit 0
 clear
@@ -32,7 +32,7 @@ fi
 
 if ! which curl > /dev/null; then
 clear
-echo -e "${red}Wah Mau Belajar Nakal Yah !${NC}"
+echo -e "${red}Wah Nak Jadi Nakal Ya !${NC}"
 sleep 2
 exit 0
 clear
@@ -236,7 +236,7 @@ zip -r $ips-backup-data.zip backup > /dev/null 2>&1
 curl -F chat_id="$chatid" -F document=@"$ips-backup-data.zip" -F caption="
 Thank You For Using Our Service
 ━━━━━━━━━━━━━━━━━━━
-Tanggal Backup : $date2
+Tarikh Backup : $date2
 ━━━━━━━━━━━━━━━━━━━
 Your Domain : $domain
 Your IP VPS  : $ips
@@ -245,7 +245,7 @@ Cara Restore ?
 1. Forward File Ini Ke Bot Direct Link/Mirror Link
 2. Copy link restore ke menu restore di script MansurVPN
 
-Nota: Mohon Dibaca
+Nota: Wajib Baca
 - Jangan Lupa Mengaktifkan Auto backup Bot Telegram Supaya Data Selalu DiBackup
 - Gunakan Juga Backup Via Gmail Jika VPS Tidak Block Port SMTP
 - Password VPS Akan Ikut Dari Data Yang Di Restore
