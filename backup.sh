@@ -191,7 +191,7 @@ echo -e "The following is a link to your vps data backup file.
 
 Your VPS IP » $IP
 Your Domain » $DOMAIN
-Tarikh Backup » $tarikh
+Tanggal Backup » $tanggal
 
 $link
 
